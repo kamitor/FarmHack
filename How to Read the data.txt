@@ -1,0 +1,40 @@
+https://www.isoblue.org/docs/data.html
+
+java -v 
+
+apt install curl java
+
+install kafka-python
+
+apt install python-pip -y
+
+
+pip install kafka-python 
+
+useradd kafka -m
+
+passwd kafka
+
+adduser kafka sudo
+
+sudo apt-get update -y
+
+sudo apt-get install default-jre
+sudo apt-get install python-avro
+sudo apt-get install ant
+
+
+>>> TYPE ruok and press ENTER
+
+curl "http://www-eu.apache.org/dist/kafka/1.1.0/kafka_2.12-1.1.0.tgz" -o ~/Downloads/kafka.tgz
+
+mkdir ~/kafka && cd ~/kafka
+
+    tar -xvzf ~/Downloads/kafka.tgz --strip 1
+
+
+
+     	
+apt update -y && apt upgrade -y
+apt install build-essential libjansson-dev asciidoc source-highlight
+
